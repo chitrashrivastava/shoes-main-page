@@ -1,0 +1,85 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+    .main{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(34, 34, 34);
+        position: relative;
+        overflow: hidden;
+    }
+    .right{
+        position: absolute;
+        width: 45%;
+        height: 190%;
+        background-color:rgb(93, 93, 93);
+        right: -15%;
+        top: -26%;
+        transform: rotate(-10deg);
+        
+    }
+    .pic{
+        position: absolute;
+        right: 10%;
+        top: 6%;
+        /* transform: ; */
+        height: 80%;
+        transform:  rotate(-20deg);
+    }
+    nav{
+        width: 100%;
+        height: 10%;
+        /* background-color: aliceblue; */
+        display: flex;
+        align-items: center;
+        color: white;
+        
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        padding-left: 20%;
+        gap: 50px;
+    }
+    .log{
+        padding-left: 4%;
+    }
+    nav:hover{
+        color: red;
+        text-decoration: underline wheat;
+    }
+    .right .center{
+        width: 100%;
+        height: 60%;
+        color: aqua;
+        
+    }
+    .left{
+        width: 60%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        /* align-items: start; */
+        padding: 120px 16%;
+        font-size: 18px;
+        /* text-align: center; */
+    }
+    .left p{
+        font-size: 20px;
+        /* width: 30%; */
+
+    }
+    .left h1{
+        margin: 30px 0 ;
+    }
+    .but button{
+        margin-top: 40px;
+        padding: 18px 29px;
+        border-radius: 15px;
+    }
